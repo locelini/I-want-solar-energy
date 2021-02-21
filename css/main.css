@@ -1,0 +1,2104 @@
+/*********************index page****************/
+.mediaViewInfo {}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#index {
+    position: absolute;
+    width: 1280px;
+    height: 2658px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+/*Header*/
+#Header {
+    fill: rgba(8, 119, 13, 0.463);
+}
+
+.Header {
+    position: fixed;
+    width: 1290px;
+    height: 77px;
+    left: -5px;
+    top: 0px;
+    z-index: 9;
+}
+
+#W3CSS {
+    position: fixed;
+    left: 1180px;
+    z-index: 12;
+}
+
+#background {
+    position: fixed;
+    width: 1290px;
+    height: 1007.5px;
+    left: -5px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Sun-logo {
+    position: fixed;
+    width: 181px;
+    height: 156px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    z-index: 10
+}
+
+#Title {
+    left: 181px;
+    top: 17px;
+    position: fixed;
+    overflow: visible;
+    width: 294px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255, 199, 43, 1);
+    z-index: 10
+}
+
+#Subtitle {
+    left: 181px;
+    top: 52px;
+    position: fixed;
+    overflow: visible;
+    width: 225px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    z-index: 10
+}
+
+/*Main*/
+#H1 {
+    left: 91px;
+    top: 156px;
+    position: absolute;
+    overflow: visible;
+    width: 582px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgba(99, 97, 31, 1);
+}
+
+#P {
+    left: 91px;
+    top: 248px;
+    position: absolute;
+    overflow: visible;
+    width: 1062px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(99, 97, 31, 1);
+}
+
+video {
+    position: absolute;
+    overflow: visible;
+    width: 1061px;
+    height: 460px;
+    left: 91px;
+    top: 359px;
+}
+
+/*navigation*/
+#Howsolarworksbtn {
+    position: absolute;
+    width: 191px;
+    height: 27px;
+    left: 244px;
+    top: 903px;
+    overflow: visible;
+}
+
+#Howsolarworksbtn:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+#HOWSOLARWORKS {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 192px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#Eusolarbtn {
+    position: absolute;
+    width: 93px;
+    height: 27px;
+    left: 594px;
+    top: 903px;
+    overflow: visible;
+}
+
+#Eusolarbtn:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+#EUSOLAR {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 94px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#Contactbtn {
+    position: absolute;
+    width: 89px;
+    height: 27px;
+    left: 846px;
+    top: 903px;
+    overflow: visible;
+}
+
+#Contactbtn:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+#CONTACT {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 90px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+/*Products img*/
+#product1 {
+    position: absolute;
+    width: 270px;
+    height: 159.5px;
+    left: 557px;
+    top: 1084px;
+    overflow: visible;
+}
+
+#product2 {
+    position: absolute;
+    width: 366px;
+    height: 587px;
+    left: 557px;
+    top: 1387px;
+    overflow: visible;
+}
+
+#product3 {
+    position: absolute;
+    width: 294px;
+    height: 471px;
+    left: 557px;
+    top: 1904px;
+    overflow: visible;
+}
+
+/*Products*/
+#p2 {
+    left: 47px;
+    top: 1252px;
+    position: absolute;
+    overflow: hidden;
+    width: 605px;
+    height: 294px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#H2 {
+    left: 133px;
+    top: 1150px;
+    position: absolute;
+    overflow: visible;
+    width: 415px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#p4 {
+    left: 47px;
+    top: 2224px;
+    position: absolute;
+    overflow: hidden;
+    width: 605px;
+    height: 263px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#H4 {
+    left: 199px;
+    top: 2078px;
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#H3 {
+    left: 140px;
+    top: 1625px;
+    position: absolute;
+    overflow: visible;
+    width: 401px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#p3 {
+    left: 47px;
+    top: 1725px;
+    position: absolute;
+    overflow: hidden;
+    width: 605px;
+    height: 269px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(8, 8, 8, 1);
+}
+
+/*Products btns*/
+#blackbtn1 {
+    fill: rgba(28, 24, 24, 1);
+}
+
+.blackbtn1 {
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    height: 74px;
+    left: 251px;
+    top: 1545px;
+}
+
+#moreinfobtn1 {
+    position: absolute;
+    width: 91px;
+    height: 27px;
+    left: 295px;
+    top: 1568px;
+    overflow: visible;
+}
+
+#More_info1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#More_info1 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 92px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#blackbtn2 {
+    fill: rgba(28, 24, 24, 1);
+}
+
+.blackbtn2 {
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    height: 74px;
+    left: 252px;
+    top: 1995px;
+}
+
+#moreinfobtn2 {
+    position: absolute;
+    width: 91px;
+    height: 27px;
+    left: 296px;
+    top: 2018px;
+    overflow: visible;
+}
+
+#More_info2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#More_info2 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 92px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#blackbtn3 {
+    fill: rgba(28, 24, 24, 1);
+}
+
+.blackbtn3 {
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    height: 74px;
+    left: 251px;
+    top: 2496px;
+}
+
+#moreinfobtn3 {
+    position: absolute;
+    width: 91px;
+    height: 27px;
+    left: 295px;
+    top: 2519px;
+    overflow: visible;
+}
+
+#More_info3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#More_info3 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 92px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/*Aside*/
+#Aasiderectangle {
+    opacity: 0.567;
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Aasiderectangle {
+    mix-blend-mode: overlay;
+    position: absolute;
+    overflow: visible;
+    width: 408px;
+    height: 585px;
+    left: 851px;
+    top: 1395px;
+}
+
+#Aside {
+    left: 920px;
+    top: 1230px;
+    position: absolute;
+    overflow: visible;
+    width: 271px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(99, 97, 31, 1);
+}
+
+#ID5reasons {
+    left: 894px;
+    top: 1426px;
+    position: absolute;
+    overflow: visible;
+    width: 363px;
+    height: 493px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(99, 97, 31, 1);
+}
+
+/*Footer*/
+#Copywrite {
+    left: 26px;
+    top: 2610px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(8, 8, 8, 1);
+}
+
+#Cookie {
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    left: 1067px;
+    top: 2590px;
+    overflow: visible;
+}
+
+#Rectangle-cookie {
+    fill: rgba(255, 170, 0, 0.502);
+}
+
+.Rectangle-cookie {
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+}
+
+#Cookie_Statement {
+    left: 21px;
+    top: 18px;
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    z-index: 9999;
+}
+
+/*Rectangles*/
+#backpic1 {
+    opacity: 0.573;
+    fill: rgba(255, 255, 255, 1);
+}
+
+.backpic1 {
+    mix-blend-mode: overlay;
+    position: absolute;
+    overflow: visible;
+    width: 668px;
+    height: 353px;
+    left: 0px;
+    top: 2180px;
+}
+
+#backpic1_i {
+    opacity: 0.573;
+    fill: rgba(255, 255, 255, 1);
+}
+
+.backpic1_i {
+    mix-blend-mode: overlay;
+    position: absolute;
+    overflow: visible;
+    width: 668px;
+    height: 353px;
+    left: 0px;
+    top: 1216px;
+}
+
+#backpic1_j {
+    opacity: 0.573;
+    fill: rgba(255, 255, 255, 1);
+}
+
+.backpic1_j {
+    mix-blend-mode: overlay;
+    position: absolute;
+    overflow: visible;
+    width: 668px;
+    height: 340px;
+    left: 0px;
+    top: 1692px;
+}
+
+/***************How Solar Works*******************/
+.mediaViewInfo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#HowSolarWorks {
+    position: absolute;
+    width: 1290px;
+    height: 3900px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+/*navigation*/
+#INDEX {
+    left: 411px;
+    top: 744px;
+    position: absolute;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#INDEX:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+#EU_SOLAR2 {
+    left: 576px;
+    top: 744px;
+    position: absolute;
+    overflow: visible;
+    width: 130px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#EU_SOLAR2:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+#CONTACT2 {
+    left: 786px;
+    top: 744px;
+    position: absolute;
+    overflow: visible;
+    width: 124px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#CONTACT2:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+/*articles titles*/
+#h1A1 {
+    left: 497px;
+    top: 1166px;
+    position: absolute;
+    overflow: visible;
+    width: 287px;
+    height: 63px;
+    text-align: center;
+    font-family: "Noto Serif Myanmar";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#h2A2 {
+    left: 44px;
+    top: 1166px;
+    position: absolute;
+    overflow: visible;
+    width: 408px;
+    height: 92px;
+    text-align: center;
+    font-family: "Noto Serif Myanmar";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#h3A3 {
+    left: 924px;
+    top: 1166px;
+    position: absolute;
+    overflow: hidden;
+    width: 211px;
+    height: 42px;
+    text-align: center;
+    font-family: "Noto Serif Myanmar";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#h4A4 {
+    left: 69px;
+    top: 1943px;
+    position: absolute;
+    overflow: hidden;
+    width: 347px;
+    height: 52px;
+    text-align: center;
+    font-family: "Noto Serif Myanmar";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#h5A5 {
+    left: 924px;
+    top: 1856px;
+    position: absolute;
+    overflow: hidden;
+    width: 222px;
+    height: 45px;
+    text-align: center;
+    font-family: "Noto Serif Myanmar";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#h6A6 {
+    left: 773px;
+    top: 2562px;
+    position: absolute;
+    overflow: visible;
+    width: 209px;
+    height: 64px;
+    text-align: center;
+    font-family: "Noto Serif Myanmar";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+/*article texts*/
+#p1A1 {
+    left: 503px;
+    top: 1244px;
+    position: absolute;
+    overflow: hidden;
+    width: 276px;
+    height: 562px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#p2A2 {
+    left: 31px;
+    top: 1244px;
+    position: absolute;
+    overflow: visible;
+    width: 432px;
+    height: 314px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#p3A3 {
+    left: 837px;
+    top: 1244px;
+    position: absolute;
+    overflow: visible;
+    width: 396px;
+    height: 385px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#p4A4 {
+    left: 43px;
+    top: 2030px;
+    position: absolute;
+    overflow: visible;
+    width: 410px;
+    height: 415px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#p5A5 {
+    left: 826px;
+    top: 1937px;
+    position: absolute;
+    overflow: visible;
+    width: 427px;
+    height: 380px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#p6A6 {
+    left: 539px;
+    top: 2607px;
+    position: absolute;
+    overflow: visible;
+    width: 677px;
+    height: 171px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/*aside*/
+#h7 {
+    left: 0px;
+    top: 2911px;
+    position: absolute;
+    overflow: visible;
+    width: 417px;
+    height: 104px;
+    text-align: center;
+    font-family: "Noto Serif Myanmar";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#p7 {
+    left: 17px;
+    top: 2999px;
+    position: absolute;
+    overflow: visible;
+    width: 400px;
+    height: 499px;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#productp7 {
+    /*image*/
+    opacity: 0.5;
+    position: absolute;
+    width: 550px;
+    height: 309px;
+    left: -62px;
+    top: 3507px;
+    overflow: visible;
+}
+
+#h8 {
+    left: 433px;
+    top: 2911px;
+    position: absolute;
+    overflow: visible;
+    width: 416px;
+    height: 94px;
+    text-align: center;
+    font-family: "Noto Serif Myanmar";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#p8 {
+    left: 453px;
+    top: 2974px;
+    position: absolute;
+    overflow: visible;
+    width: 390px;
+    height: 520px;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#productp8 {
+    /*image*/
+    opacity: 0.5;
+    position: absolute;
+    width: 796px;
+    height: 448px;
+    left: 202px;
+    top: 3528px;
+    overflow: visible;
+}
+
+#h9 {
+    left: 862px;
+    top: 2911px;
+    position: absolute;
+    overflow: hidden;
+    width: 419px;
+    height: 94px;
+    text-align: center;
+    font-family: "Noto Serif Myanmar";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#p9 {
+    transform: matrix(1, 0, 0, 1, 882.7981, 3019.0437) rotate(0deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 379px;
+    height: 548px;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#productp9 {
+    /*image*/
+    opacity: 0.5;
+    position: absolute;
+    width: 246px;
+    height: 465px;
+    left: 948px;
+    top: 3511px;
+    overflow: visible;
+}
+
+/*buy btns*/
+#buybtn1 {
+    fill: rgba(8, 119, 13, 0.561);
+}
+
+.buybtn1 {
+    position: absolute;
+    overflow: visible;
+    width: 130px;
+    height: 78px;
+    left: 152px;
+    top: 3816px;
+}
+
+#Buy1 {
+    left: 192px;
+    top: 3834px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    height: 42px;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Buy1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#buybtn2 {
+    fill: rgba(8, 119, 13, 0.561);
+}
+
+.buybtn2 {
+    position: absolute;
+    overflow: visible;
+    width: 130px;
+    height: 78px;
+    left: 583px;
+    top: 3816px;
+}
+
+#Buy2 {
+    left: 623px;
+    top: 3834px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    height: 42px;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Buy2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#buybtn3 {
+    fill: rgba(8, 119, 13, 0.561);
+}
+
+.buybtn3 {
+    position: absolute;
+    overflow: visible;
+    width: 130px;
+    height: 78px;
+    left: 1007px;
+    top: 3816px;
+}
+
+#Buy3 {
+    left: 1047px;
+    top: 3834px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    height: 42px;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Buy3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/*footer*/
+#copyright2 {
+    left: 61px;
+    top: 4000px;
+    position: absolute;
+    overflow: visible;
+    width: 295px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#cookierect {
+    fill: rgba(255, 170, 0, 0.502);
+}
+
+.cookierect {
+    position: absolute;
+    overflow: visible;
+    width: 208px;
+    height: 66px;
+    left: 1053px;
+    top: 3977px;
+}
+
+#Cookie_Statement2 {
+    left: 1078px;
+    top: 4000px;
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    z-index: 9999;
+}
+
+/*images*/
+#img1 {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 402px;
+    top: 217px;
+    overflow: visible;
+}
+
+#img2 {
+    position: absolute;
+    width: 1163px;
+    height: 349px;
+    left: 59px;
+    top: 822px;
+    overflow: visible;
+}
+
+#imgA1 {
+    opacity: 0.69;
+    position: absolute;
+    width: 217px;
+    height: 232px;
+    left: 532px;
+    top: 1806px;
+    overflow: visible;
+}
+
+#imgA1-2 {
+    opacity: 0.69;
+    position: absolute;
+    width: 275px;
+    height: 489px;
+    left: 503px;
+    top: 2030px;
+    overflow: visible;
+}
+
+#imgA3 {
+    position: absolute;
+    width: 232px;
+    height: 151px;
+    left: 913px;
+    top: 1630px;
+    overflow: visible;
+}
+
+#img-A4 {
+    position: absolute;
+    width: 321px;
+    height: 321px;
+    left: 86px;
+    top: 1604px;
+    overflow: visible;
+}
+
+#imgA4-2 {
+    opacity: 0.69;
+    position: absolute;
+    width: 378px;
+    height: 109px;
+    left: 53px;
+    top: 2401px;
+    overflow: visible;
+}
+
+#imgA4-3 {
+    position: absolute;
+    width: 401px;
+    height: 164.496px;
+    left: 42px;
+    top: 2528px;
+    overflow: visible;
+}
+
+#imgA5 {
+    opacity: 0.69;
+    position: absolute;
+    width: 161.048px;
+    height: 351.393px;
+    left: 954px;
+    top: 2201px;
+    overflow: visible;
+}
+
+/*rectangles*/
+#rec {
+    fill: rgba(215, 142, 69, 0.502);
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.rec {
+    position: absolute;
+    overflow: visible;
+    width: 426.6px;
+    height: 605px;
+    left: 0px;
+    top: 2911px;
+}
+
+#rec_s {
+    fill: rgba(215, 142, 69, 0.502);
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.rec_s {
+    position: absolute;
+    overflow: visible;
+    width: 426.6px;
+    height: 605px;
+    left: 427px;
+    top: 2911px;
+}
+
+#rec_z {
+    fill: rgba(215, 142, 69, 0.502);
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.rec_z {
+    position: absolute;
+    overflow: visible;
+    width: 426.6px;
+    height: 605px;
+    left: 853px;
+    top: 2910px;
+}
+
+#RectA1 {
+    fill: rgba(8, 119, 13, 0.459);
+}
+
+.RectA1 {
+    position: absolute;
+    overflow: visible;
+    width: 296px;
+    height: 1470px;
+    left: 492px;
+    top: 1082px;
+}
+
+#RectA2 {
+    fill: rgba(254, 220, 53, 0.459);
+}
+
+.RectA2 {
+    position: absolute;
+    overflow: visible;
+    width: 452px;
+    height: 490px;
+    left: 20px;
+    top: 1082px;
+}
+
+#RectA3 {
+    fill: rgba(254, 220, 53, 0.459);
+}
+
+.RectA3 {
+    position: absolute;
+    overflow: visible;
+    width: 452px;
+    height: 735px;
+    left: 808px;
+    top: 1082px;
+}
+
+#RectA4 {
+    fill: rgba(8, 119, 13, 0.459);
+}
+
+.RectA4 {
+    position: absolute;
+    overflow: visible;
+    width: 452px;
+    height: 735px;
+    left: 808px;
+    top: 1817px;
+}
+
+#RectA4_p {
+    fill: rgba(8, 119, 13, 0.459);
+}
+
+.RectA4_p {
+    position: absolute;
+    overflow: visible;
+    width: 452px;
+    height: 1225px;
+    left: 21px;
+    top: 1572px;
+}
+
+#RectA6 {
+    fill: rgba(254, 220, 53, 0.459);
+}
+
+.RectA6 {
+    position: absolute;
+    overflow: visible;
+    width: 768px;
+    height: 245px;
+    left: 492px;
+    top: 2552px;
+}
+
+/**********************EUSolar********************/
+.mediaViewInfo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+
+}
+
+#eusolar {
+    position: absolute;
+    width: 1290px;
+    height: 2130px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+/*navigation*/
+#index2 {
+    left: 343px;
+    top: 188px;
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#index2:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+#howsolarworks2 {
+    left: 517px;
+    top: 188px;
+    position: absolute;
+    overflow: visible;
+    width: 224px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#howsolarworks2:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+#contact3 {
+    left: 835px;
+    top: 188px;
+    position: absolute;
+    overflow: visible;
+    width: 103px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#contact3:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+/*main*/
+#h1 {
+    left: 359.5px;
+    top: 358px;
+    position: absolute;
+    overflow: visible;
+    width: 563px;
+    height: 99px;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#p {
+    left: 125px;
+    top: 489px;
+    position: absolute;
+    overflow: visible;
+    width: 1032px;
+    height: 286px;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#h2 {
+    left: 83px;
+    top: 1101px;
+    position: absolute;
+    overflow: visible;
+    width: 696px;
+    height: 99px;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(254, 220, 53, 1);
+}
+
+/*aside images*/
+#asideprod1 {
+    position: absolute;
+    width: 393px;
+    height: 221px;
+    left: 867px;
+    top: 1093px;
+    overflow: visible;
+}
+
+#asideprod2 {
+    position: absolute;
+    width: 357px;
+    height: 201px;
+    left: 884px;
+    top: 1391px;
+    overflow: visible;
+}
+
+#asideprod3 {
+    position: absolute;
+    width: 278px;
+    height: 235px;
+    left: 923px;
+    top: 1684px;
+    overflow: visible;
+}
+
+/*aside links*/
+#h3 {
+    left: 883px;
+    top: 1321px;
+    position: absolute;
+    overflow: visible;
+    width: 374px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(112, 112, 112, 1);
+    z-index: 10;
+}
+
+#h3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#h4 {
+    left: 988px;
+    top: 1620px;
+    position: absolute;
+    overflow: visible;
+    width: 164px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(112, 112, 112, 1);
+    z-index: 10;
+}
+
+#h4:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#h5 {
+    left: 915px;
+    top: 1919px;
+    position: absolute;
+    overflow: visible;
+    width: 332px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(112, 112, 112, 1);
+    z-index: 10;
+}
+
+#h5:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/*table*/
+#tablesource {
+    left: 322px;
+    top: 1982px;
+    position: absolute;
+    overflow: hidden;
+    width: 220px;
+    height: 26px;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112, 112, 112, 1);
+}
+
+#tableRec {
+    fill: rgba(215, 142, 69, 0.502);
+}
+
+.tableRec {
+    position: absolute;
+    overflow: visible;
+    width: 759px;
+    height: 770px;
+    left: 51px;
+    top: 1200px;
+}
+
+#Table {
+    position: absolute;
+    width: 674px;
+    height: 800px;
+    left: 93px;
+    top: 1210px;
+    overflow: visible;
+}
+
+#TableTopline {
+    fill: transparent;
+    stroke: rgba(26, 26, 26, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.TableTopline {
+    overflow: visible;
+    position: absolute;
+    width: 674px;
+    height: 1px;
+    left: 0px;
+    top: 17px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/*footer*/
+#copyright3 {
+    left: 51px;
+    top: 2080px;
+    position: absolute;
+    overflow: visible;
+    width: 332px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#CoockieStatement3 {
+    left: 1009px;
+    top: 2080px;
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    z-index: 9999;
+}
+
+#CookieStatementrec {
+    fill: rgba(255, 170, 0, 0.502);
+}
+
+.CookieStatementrec {
+    position: absolute;
+    overflow: visible;
+    width: 195px;
+    height: 58px;
+    left: 990px;
+    top: 2062px;
+}
+
+/*rectangles*/
+#h2rec {
+    fill: rgba(215, 142, 69, 0.502);
+}
+
+.h2rec {
+    position: absolute;
+    overflow: visible;
+    width: 538px;
+    height: 112px;
+    left: 161px;
+    top: 1081px;
+}
+
+#Rec1 {
+    fill: rgba(8, 119, 13, 0.459);
+}
+
+.Rec1 {
+    position: absolute;
+    overflow: visible;
+    width: 1197px;
+    height: 501px;
+    left: 42px;
+    top: 312px;
+}
+
+#rec2 {
+    fill: transparent;
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.rec2 {
+    position: absolute;
+    overflow: visible;
+    width: 422px;
+    height: 295.5px;
+    left: 858px;
+    top: 1077px;
+}
+
+#rec3 {
+    fill: transparent;
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.rec3 {
+    position: absolute;
+    overflow: visible;
+    width: 422px;
+    height: 295.5px;
+    left: 858px;
+    top: 1376px;
+}
+
+#rec4 {
+    fill: transparent;
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.rec4 {
+    position: absolute;
+    overflow: visible;
+    width: 422px;
+    height: 295.5px;
+    left: 858px;
+    top: 1675px;
+    ;
+}
+
+/*************************Contact**********************/
+.mediaViewInfo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#contact {
+    position: absolute;
+    width: 1280px;
+    height: 1443px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+#imgcontact {
+    position: absolute;
+    width: 564px;
+    height: 444px;
+    left: 59px;
+    top: 189px;
+    overflow: visible;
+}
+
+#imgworld {
+    position: absolute;
+    width: 649px;
+    height: 365px;
+    left: 612px;
+    top: 76px;
+    overflow: visible;
+}
+
+/*navigation*/
+#HowSolarWorks3 {
+    left: 529px;
+    top: 712px;
+    position: absolute;
+    overflow: visible;
+    width: 224px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#HowSolarWorks3:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+#Index {
+    left: 364px;
+    top: 712px;
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#Index:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+#EuSolar {
+    left: 843px;
+    top: 712px;
+    position: absolute;
+    overflow: visible;
+    width: 110px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#EuSolar:hover {
+    cursor: pointer;
+    transform: scale(2.2);
+}
+
+/*aside*/
+#recH1 {
+    fill: transparent;
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.recH1 {
+    position: absolute;
+    overflow: visible;
+    width: 327px;
+    height: 149px;
+    left: 929px;
+    top: 857px;
+}
+
+#asideH1 {
+    left: 932px;
+    top: 967px;
+    position: absolute;
+    overflow: visible;
+    width: 323px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(112, 112, 112, 1);
+    z-index: 10;
+}
+
+#asideH1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#P1ASIDEIMG {
+    position: absolute;
+    width: 117px;
+    height: 90px;
+    left: 1035px;
+    top: 869px;
+    overflow: visible;
+}
+
+#recH2 {
+    fill: transparent;
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.recH2 {
+    overflow: visible;
+    position: absolute;
+    width: 327px;
+    height: 149px;
+    left: 929px;
+    top: 1007px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#asideH2 {
+    left: 991px;
+    top: 1110px;
+    position: absolute;
+    overflow: visible;
+    width: 207px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(112, 112, 112, 1);
+    z-index: 10;
+}
+
+#asideH2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#P2ASIDEIMG {
+    position: absolute;
+    width: 252px;
+    height: 168px;
+    left: 968px;
+    top: 989px;
+    overflow: visible;
+}
+
+#recH3 {
+    fill: transparent;
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.recH3 {
+    position: absolute;
+    overflow: visible;
+    width: 327px;
+    height: 149px;
+    left: 929px;
+    top: 1157px;
+}
+
+#asideH3 {
+    left: 962px;
+    top: 1274px;
+    position: absolute;
+    overflow: visible;
+    width: 273px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(112, 112, 112, 1);
+    z-index: 10;
+}
+
+#asideH3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#P3ASIDEIMG {
+    position: absolute;
+    width: 80px;
+    height: 107.5px;
+    left: 1053px;
+    top: 1163px;
+    overflow: visible;
+}
+
+/*form*/
+legend {
+    position: absolute;
+    top: 800px;
+    left: 30px;
+    color: rgba(255, 170, 0, 0.9);
+    font-weight: bold;
+}
+
+label {
+    position: relative;
+    top: 895px;
+    left: 30px;
+    display: flex;
+    font-weight: bold;
+    color: rgba(255, 170, 0, 0.9);
+}
+
+input[type=text],
+select,
+textarea {
+    position: relative;
+    height: 90px;
+    width: 50%;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 5em;
+    border-color: white;
+    top: 840px;
+    display: flex;
+    left: 200px;
+    background-color: transparent;
+}
+
+input[type=submit] {
+    position: absolute;
+    background-color: #08770D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 1325px;
+    left: 480px;
+}
+
+input[type=submit]:hover {
+    transform: scale(1.1);
+}
+
+/*footer*/
+#Copyright5 {
+    left: 47px;
+    top: 1395px;
+    position: absolute;
+    overflow: visible;
+    width: 295px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#CookieStatementrec2 {
+    fill: rgba(255, 170, 0, 0.502);
+}
+
+.CookieStatementrec2 {
+    position: absolute;
+    overflow: visible;
+    width: 195px;
+    height: 58px;
+    left: 998px;
+    top: 1378px;
+}
+
+#CookieStatement5 {
+    left: 1014px
+    top: 1395px;
+    position: absolute;
+    overflow: visible;
+    width: 228px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    z-index: 9999;
+}
+
